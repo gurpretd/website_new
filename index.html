@@ -1,0 +1,147 @@
+<html>
+<head>
+<title>project</title>
+<link rel="stylesheet" type=text/css href="style.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+
+</head>
+<body>
+<div id="mainbody">
+	<div id="wrapper">
+		<div id="header">
+			<div class="logo">
+			<a href="index.html">
+			<img src="logo.png" height:"100px" width="100%" style="border:#FFFFFF; margin:1px;" alt="logo"></a>
+			</div>
+			<div class="menu"><br>
+			<ul>
+				<li>INDEE
+					<ul>
+						<li><a href="TeamMembers.html" target="page" >Team Members</a></li>
+						<li><a href="Students.html" target="page">Students</a></li>
+						<li><a href="History.html" target="page">INDEE History</a></li>
+						<li><a href="milestones.html" target="page">INDEE Milestones</a></li>
+						<li><a href="Approach&Hypothesis.html" target="page">Approach&Hypothesis</a></li>
+					</ul>
+					</li>
+				
+				<li>Downloads
+					<ul>
+						<li><a href="downloads.html" target="page">Technical Articles</a></li>
+						
+					</ul>
+				</li>
+				
+				<li>Associates
+					<ul>
+						<li><a href="Academic.html" target="page">Universities</a></li>
+						<li><a href="Industrial.html" target="page">Industry</a></li>
+					</ul>			
+				</li>
+				
+				<li>Events
+					<ul>
+						<li><a href="InternationalWorkshop.html" target="page">International Workshop</a></li>
+						<li><a href="GianCourse.html" target="page">GIAN Course</a></li>
+					</ul>
+				</li>
+				
+				<li><a href="contactUs.html" target="page">Contact Us</a></li>
+				
+				<li>Useful Links
+					<ul>
+						<li><a href="http://www.ashraeindia.org/" target="_blank"> ASHRAE</a></li>
+						<li><a href="http://ishrae.in/ " target="_blank">ISHRAE</a></li>
+						<li><a href="http://www.dorin.com/" target="_blank">Dorin</a></li>
+						<li><a href="https://www.danfoss.com/en/" target="_blank">Denfoss</a></li>
+						<li><a href="http://www.enex-ref.com/" target="_blank">Enex</a></li>
+						<li><a href="https://www.luve.it/" target="_blank">LU-VE</a></li>
+						<li><a href="http://www.iifiir.org/medias/medias.aspx?instance=EXPLOITATION&SETLANGUAGE=EN" target="_blank">IIR</a></li>
+				
+					</ul>			
+				</li>
+			</ul>
+			</div>
+			
+		</div>
+		
+			<div id="topHalf">
+				<div class="image" name="slides">
+							
+				<img class="mySlides" src="IW/IW_2.jpg">
+  				<img class="mySlides" src="IW/IW_1.jpg">
+				<img class="mySlides" src="IW/IW_3.jpg">
+				<img class="mySlides" src="IW/IW_4.jpg">
+				<img class="mySlides" src="IW/IW_5.jpg">
+				 				
+				</div>
+				
+		<script>
+		var myIndex = 0;
+		carousel();
+
+		function carousel() {
+    	var i;
+    	var x = document.getElementsByClassName("mySlides");
+    	for (i = 0; i < x.length; i++) {
+       		x[i].style.display = "none";  
+    	}
+    	myIndex++;
+    	if (myIndex > x.length) {myIndex = 1}    
+    	x[myIndex-1].style.display = "block";  
+    	setTimeout(carousel, 2000); // Change image every 2 seconds
+		}
+		</script>
+
+				
+				
+					
+	</div>
+		<div id="centre">
+			<div id="centreHalf" >
+			
+				<div class="members">
+				<iframe name="page" src="TeamMembers.html" height="380px" width="100%"></iframe>
+				</div>
+				
+				<div class="moving">
+					<div class="heading1">
+						CO<sub>2</sub> Test Facility at IIT Madras
+					</div>
+					<div class="setUp">
+						<img src="image.png" style="width:95%; border:#FFFFFF;"  alt="setUp" >
+						
+					</div>
+				</div>		
+				
+			<div id="centreRight">	
+				<div class="youtubeVideo">
+				<iframe width="100%" height="250px" src="https://www.youtube.com/embed/SkSkKKlcVJQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</div><br>
+				
+				<div class="galleryLogo">
+				<a href="gallery.html"><img src="gallery.png" style="height:80px; margin-top:5%;"></a>
+				</div>
+				<div class="galleryText">
+				
+				
+				<h1>Gallery</h1>
+				</div>
+				
+			</div>
+			
+		</div>
+	</div>	
+		<div id="footer">
+						
+			<font size="-1"> &copy;INDEE. All Rights Reserved<br>
+				
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

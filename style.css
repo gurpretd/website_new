@@ -1,0 +1,237 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+#mainbody{
+	width:100%;
+	height:800px;
+	background-color:#FFFFFF;
+}
+#wrapper{
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	height:800px;
+	background-color:#ffffff;
+}
+#header{
+	width:100%;
+	height:15%;
+	background-color:#FFFFFF;
+}
+.logo{
+	width:10%;
+	height:60%;
+	background-color:#e6e6e6;
+	float:left;
+	margin-top:1%;
+	margin-left:.5%;
+}
+.menu{
+	height:100%;
+	width:85%;
+	float:left;
+	
+}
+ul li{
+	list-style:none;
+	float:left;
+	width:165px;
+	height:35px;
+	background-color:#b3c6ff;
+	text-align:center;
+	font-family:"Times New Roman", Times, serif;
+	font-size:18px;
+	margin-left:2px;
+	margin-top:1px;
+	line-height:35px;
+	position:relative;
+	text-decoration:none;
+	
+}
+ul li a{
+	text-align:center;
+	text-decoration:none;
+	color:#FFFFFF;
+	display:block;
+	
+	
+}
+ul li a:hover{
+	color:#CCCCCC;
+	background-color:#FFFFFF;
+	font-weight:bolder;
+	text-decoration:none;
+	border:#333333;
+	
+}
+ul ul{
+	position:absolute;
+	display:none;
+}
+ul li:hover>ul{
+	display:block;
+	border:#666666;
+	
+}
+
+#centre{
+	width:100%;	
+	background-color:#ffffff;
+	float:left;
+}
+#tophalf{
+	width:100%;
+	height:300px;
+	float:left;
+}
+.mySlides{
+	height:290px;
+	width:100%;
+	margin:2px;
+	margin-left:10%;
+}
+.image{
+	float:left;
+	background-color:#FFFFFF;
+	width:80%;
+}
+
+
+#centre{
+	height:25%;
+	width:100%;
+	}
+
+#centreHalf{
+	width:100%;
+	height:25%;
+	float:left;
+}
+.members{
+	width:40%;
+	height:100%;
+	float:left;
+	border:#666666;
+	
+}
+#IndeeTeam{
+	width:100%;
+	height:100%;
+}
+#teamPic{
+	width:30%;
+	height:100px;
+	margin-top:5px;
+}
+
+#teamName{
+	font:"Times New Roman", Times, serif;
+	font-size:14px;
+	width:300px;
+	width:70%;
+	height:120px;
+
+}
+#studentName{
+	font-size:12px;
+	}
+#centreRight{
+	width:60%;
+	height:200px;
+	float:left;
+}
+
+.moving{
+	width:30%;
+	height:85%;
+	float:left;
+	
+	
+}
+.heading1{
+	width:60%;
+	height:50px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:18px;
+	margin-left:25%;
+	border:#000066;
+	line-height:70px;
+}
+.setUp{
+	height:120px;
+}
+.setUP:hover{
+
+	transform:scale(1.5);
+}
+
+.youtubeVideo{
+	width:48%;
+	height:200px;
+	float:right;
+	background-color:#0066cc;
+	margin-top:0px;
+	position:relative;
+	
+}
+
+.galleryLogo{
+	height:4%;
+	width:50%;
+	float:left;
+	margin-left:5%;
+	margin-top:10%;
+}
+.galleryText{
+	height:5%;
+	width:50%;
+	font-size:14px;
+	float:left;
+	margin-left:30%;
+}
+#imageFolder{
+	width:100%;
+	height:400px;
+	
+}
+.folder1{
+	width:40%;
+	height:300px;
+	margin:50px;
+	float:left;
+	
+}
+.folder2{
+	width:40%;
+	height:300px;
+	margin:50px;
+	float:left;
+	
+}
+.folderGIAN{
+	height:50%;
+	width:50%;
+	position:absolute;
+	margin-left:15%;
+	margin-top:5%;
+	}
+.folderIW{
+	height:50%;
+	width:50%;
+	position:absolute;
+	margin-left:15%;
+	margin-top:5%;
+}
+
+
+#footer{
+	width:100%;
+	height:2%;
+	background-color:#FFFFFF;
+	float:left;
+	margin-top:200px;
+	
+}
+
+
